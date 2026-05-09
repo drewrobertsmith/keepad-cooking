@@ -1,7 +1,7 @@
 import { Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
-export default function CookScreen() {
+export default function ShopScreen() {
   const insets = useSafeAreaInsets();
 
   return (
@@ -9,7 +9,7 @@ export default function CookScreen() {
       className="flex-1 bg-background-dark"
       style={{ paddingTop: insets.top }}
     >
-      <Text className="font-base font-sans">Cook Screen</Text>
+      <Text className="font-base font-sans">Shop Screen</Text>
     </View>
   );
 }
